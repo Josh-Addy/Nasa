@@ -5,16 +5,36 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/menu_map"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="@string/menu_map" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/menu_keynote"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_keynote" />
+        <item
+            android:id="@+id/menu_seminar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_seminar" />
+        <item
+            android:id="@+id/menu_master"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_master" />
+        <item
+            android:id="@+id/menu_handshake"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_handshake" />
+        <item
+            android:id="@+id/menu_workshop"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_workshop" />
+        <item
+            android:id="@+id/menu_feedback"
+            android:icon="@drawable/ic_baseline_format_quote_24"
+            android:title="@string/menu_feedbaclk" />
     </group>
 </menu>
