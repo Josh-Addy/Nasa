@@ -5,11 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.nasa.databinding.FragmentHomeBinding
+import com.example.nasa.databinding.FragmentMapBinding
 
 class MapFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentMapBinding? = null
 
     private val binding get() = _binding!!
 
@@ -20,7 +20,7 @@ class MapFragment : Fragment() {
     ): View {
 
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentMapBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
 
